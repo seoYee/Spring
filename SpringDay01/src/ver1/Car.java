@@ -20,9 +20,6 @@ public class Car {
  public void printCarInfo(){
      System.out.println
          ("현재 차량 장착 타이어 : "+ tire.getModelChina());
-  
-  
-  
  }
 
 }
