@@ -7,9 +7,10 @@
 
 	<context:annotation-config/>
 	
-<!-- 	There is no object bean type of MemberDao -->
-<!-- 	<bean id="memberDao" class="main.java.spring.MemberDao"> -->
-<!-- 	</bean> -->
+	
+	
+	<bean id="memberDao" class="main.java.spring.MemberDao">
+	</bean>
 	
 	<bean id="memberRegSvc" class="main.java.spring.MemberRegisterService">
 	</bean>
@@ -17,7 +18,12 @@
 	<bean id="printer" class="main.java.spring.MemberPrinter">
 	</bean>
 	
+	<bean id="printer2" class="main.java.spring.MemberPrinter">
+	</bean>
+	
 	<bean id="infoPrinter" class="main.java.spring.MemberInfoPrinter">
+		<property name="printer" ref="printer2">
+		</property>
 	</bean>
 
 </beans>
