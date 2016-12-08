@@ -2,6 +2,7 @@ package main.java.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 
 import main.java.MemberDao;
 import main.java.MemberInfoPrinter;
@@ -9,6 +10,7 @@ import main.java.MemberPrinter;
 import main.java.MemberRegisterService;
 
 @Configuration
+@ImportResource("classpath:sub-conf.xml")
 public class JavaConfig {
 	
 	@Bean
