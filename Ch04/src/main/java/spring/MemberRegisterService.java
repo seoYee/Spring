@@ -8,11 +8,14 @@ public class MemberRegisterService {
 	private MemberDao memberDao;
 	
 	
-	@Autowired
+	@Autowired(required=false)
 	public MemberRegisterService(MemberDao memberDao){
 		this.memberDao = memberDao;
 	}
 	
+	public MemberRegisterService(){
+		
+	}
 	public void regist(RegisterRequest req){
 		Member member = memberDao.selectByEmail(req.getEmail());
 		if(member != null){

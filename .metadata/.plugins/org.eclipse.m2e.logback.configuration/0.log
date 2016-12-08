@@ -2647,3 +2647,63 @@ org.eclipse.core.runtime.CoreException: Launch configuration MainForJC reference
 2016-12-08 15:45:30,844 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2016-12-08 15:45:30,845 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-12-08 15:45:30,846 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:37:54,849 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:37:54,850 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:37:54,852 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:37:54,852 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:38:25,554 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:38:25,555 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:38:25,557 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:38:25,558 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:38:43,641 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:38:43,642 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:38:43,643 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:38:43,644 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:43:02,697 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:43:02,698 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:43:02,700 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:43:02,702 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:44:34,520 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:44:34,521 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:44:34,522 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:44:34,522 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:44:47,257 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:44:47,258 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:44:47,259 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:44:47,262 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:45:22,428 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:45:22,429 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:45:22,431 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:45:22,432 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:46:52,783 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:46:52,784 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:46:52,786 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:46:52,787 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:51:07,429 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:51:07,432 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:51:07,437 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:51:07,437 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:51:16,298 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:51:16,298 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:51:16,299 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:51:16,300 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:52:14,855 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:52:14,856 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:52:14,857 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:52:14,858 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:53:28,174 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:53:28,175 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:53:28,177 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:53:28,177 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:53:51,310 [Worker-214] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:53:51,311 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:53:51,313 [Worker-214] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:53:51,314 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:54:54,671 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:54:54,672 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:54:54,673 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:54:54,674 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
+2016-12-08 16:56:58,336 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:56:58,337 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 16:56:58,338 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-08 16:56:58,339 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/LeeseoYee/Documents/SpringWorkspace/Ch04/src/test/resources
