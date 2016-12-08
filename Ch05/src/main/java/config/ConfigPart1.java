@@ -14,6 +14,7 @@ public class ConfigPart1 {
 		return new MemberDao();
 	}
 	
+	@Bean
 	public MemberRegisterService memberRegSvc(){
 		return new MemberRegisterService(memberDao());
 	}

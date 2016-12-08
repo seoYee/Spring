@@ -13,7 +13,7 @@ public class ConfigPart2 {
 	
 	//MemberDao 필드 추가
 	@Autowired
-	private MemberDao memberDao;
+	private ConfigPart1 configPart1;
 	
 	@Bean
 	public MemberPrinter printer(){
@@ -24,7 +24,7 @@ public class ConfigPart2 {
 	@Bean
 	public MemberInfoPrinter infoPrinter(){
 		MemberInfoPrinter infoPrinter = new MemberInfoPrinter();
-		infoPrinter.setMemDao(memberDao);
+		infoPrinter.setMemDao(configPart1.memberDao());
 		infoPrinter.setPrinter(printer());
 		return infoPrinter;
 	}
