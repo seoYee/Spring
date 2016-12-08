@@ -5,9 +5,15 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 public class MemberInfoPrinter {
 	
-	@Autowired(required=false)
 	private MemberDao memDao;
 	private MemberPrinter printer;
+	
+	@Autowired
+	
+	public void injectDependency(MemberDao memberDao, @Qualifier("sysout")MemberPrinter printer){
+		this.memDao = memberDao;
+		this.printer = printer;
+	}
 	
 	public void setMemDao(MemberDao memberDao) {
 		this.memDao = memberDao;

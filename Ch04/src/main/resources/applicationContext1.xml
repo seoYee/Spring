@@ -8,7 +8,15 @@
 	<context:annotation-config/>
 	
 	
+	
+	<bean id="memberDao" class="main.java.spring.MemberDao">
+	</bean>
+	
+	<bean id="memberRegSvc" class="main.java.spring.MemberRegisterService">
+	</bean>
+	
 	<bean id="printer" class="main.java.spring.MemberPrinter">
+		<qualifier value="sysout"></qualifier>
 	</bean>
 	
 	<bean id="printer2" class="main.java.spring.MemberPrinter">
