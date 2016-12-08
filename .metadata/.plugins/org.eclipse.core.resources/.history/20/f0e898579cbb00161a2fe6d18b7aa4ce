@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="memberDao" class="main.java.spring.MemberDao">
+	</bean>
+	
+	<bean id="memberRegSvc" class="main.java.spring.MemberRegisterService">
+		<constructor-arg ref="memberDao"/>
+	</bean>
+	
+	<bean id="changePwdSvc" class="main.java.spring.ChangePasswordService">
+		<constructor-arg ref="memberDao"/>
+	</bean>
+	
+<!-- 	의존 관계의 클래스에 해당하는 bean태그를 전부 다 등록해 주어야 한다. 만약 memberListPrinter를 쓰려고 하는데-->
+<!-- 거기에 해당하는 bean태그만 쓰고 의존하는 memberPrint에 대한 bean태그를 써주지 않으면 참조할 수 없다. -->
+	<bean id="memberPrinter" class="main.java.spring.MemberPrinter">
+	</bean>
+	
+	<bean id="listPrinter" class="main.java.spring.MemberListPrinter">
+		<constructor-arg ref="memberDao"/>
+		<constructor-arg ref="memberPrinter"/>
+	</bean>
+	
+	
+</beans>

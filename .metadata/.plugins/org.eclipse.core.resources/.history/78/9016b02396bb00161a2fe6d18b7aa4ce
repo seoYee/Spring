@@ -1,0 +1,22 @@
+package main.java.spring;
+
+import java.util.Collection;
+
+public class MemberListPrinter {
+	
+	private MemberDao memberDao;
+	private MemberPrinter memberPrinter;
+	
+	public MemberListPrinter(MemberDao memberDao, MemberPrinter printer){
+		this.memberDao = memberDao;
+		this.memberPrinter = printer;
+	}
+	
+	public void printAll(){
+		Collection<Member> members = memberDao.selectAll();
+		for(Member m : members){
+			printer.print(m);
+		}
+	}
+
+}

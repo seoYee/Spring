@@ -1,0 +1,57 @@
+package test02_transaction;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ProductDao {
+	public static final String DRIVER_NAME = "com.mysql.jdbc.Driver";
+	public static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/spring";
+	public static final String DB_ID = "root";
+	public static final String DB_PW = "sds902";
+	private Connection con;
+
+		
+		public void startTransaction(){
+			try {
+	            con = DriverManager.getConnection
+	                    (DB_URL,DB_ID,DB_PW);// 커넥션 생성
+	            con.setAutoCommit(false); // 트랜잭션 시작
+	        } catch (SQLException e) {
+	            System.out.println("커넥션 생성 오류");
+	            e.printStackTrace();
+	        }
+	    }
+		
+		public void commitTransaction(){
+			 try {
+		            con.commit();
+		        } catch (SQLException e) {
+		            System.out.println("커밋 오류");
+		            e.printStackTrace();
+		        }
+			
+		}
+		public void rollbackTransaction(){
+			try {
+	            con.rollback();
+	        } catch (SQLException e) {
+	            System.out.println("롤백 오류");
+	            e.printStackTrace();
+	        }
+			
+		}
+		public void closeConnection(){
+			if(con!=null){
+	            try {
+	                con.close();
+	            } catch (SQLException e) {
+	                System.out.println("커넥션 종료 오류");
+	                e.printStackTrace();
+	            }
+	        }
+		
+			}
+		
+	}
+}

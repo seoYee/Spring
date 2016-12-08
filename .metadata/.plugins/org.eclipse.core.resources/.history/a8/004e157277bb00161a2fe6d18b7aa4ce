@@ -1,0 +1,12 @@
+package ver6;
+
+import org.springframework.stereotype.Component;
+
+omponent
+public class KoreaTire implements Tire{
+
+	@Override
+	public String getModel(){
+		return "국산";
+	}
+}
