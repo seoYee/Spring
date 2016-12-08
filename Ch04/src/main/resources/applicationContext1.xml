@@ -13,10 +13,14 @@
 	<bean id="memberRegSvc" class="main.java.spring.MemberRegisterService">
 	</bean>
 	
-	<bean id="memberPrinter" class="main.java.spring.MemberPrinter">
+	<bean id="printer1" class="main.java.spring.MemberPrinter">
+		<qualifier value="sysout"/>
 	</bean>
 	
-	<bean id="InfoPrinter" class="main.java.spring.MemberInfoPrinter">
+	<bean id="printer2" class="main.java.spring.MemberPrinter">
+	</bean>
+
+	<bean id="infoPrinter" class="main.java.spring.MemberInfoPrinter">
 	</bean>
 
 </beans>
