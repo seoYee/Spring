@@ -1,21 +1,19 @@
 package main.java.spring;
 
-import javax.annotation.Resource;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 public class MemberInfoPrinter {
 	
-	@Resource(name="memberDao")
+	@Autowired(required=false)
 	private MemberDao memDao;
 	private MemberPrinter printer;
-
+	
 	public void setMemDao(MemberDao memberDao) {
 		this.memDao = memberDao;
 	}
 	
-	@Resource(name="memberPrinter")
+	@Autowired
 	public void setPrinter(MemberPrinter printer) {
 		this.printer = printer;
 	}

@@ -8,14 +8,10 @@
 	<context:annotation-config/>
 	
 	
-	
-	<bean id="memberDao" class="main.java.spring.MemberDao">
+	<bean id="printer" class="main.java.spring.MemberPrinter">
 	</bean>
 	
-	<bean id="memberRegSvc" class="main.java.spring.MemberRegisterService">
-	</bean>
-	
-	<bean id="memberPrinter" class="main.java.spring.MemberPrinter">
+	<bean id="printer2" class="main.java.spring.MemberPrinter">
 	</bean>
 	
 	<bean id="infoPrinter" class="main.java.spring.MemberInfoPrinter">
