@@ -7,7 +7,6 @@
 
 	<context:annotation-config/>
 	
-	
 	<bean id="printer" class="main.java.spring.MemberPrinter">
 	</bean>
 	
