@@ -12,7 +12,7 @@ import main.java.config.JavaConfig;
 
 public class Main {
 	public static void main(String[] args) {
-		//스프링 컨테이너 생성시 GenericXmlApplicationContext 대신 AnnotationConfigApplicationContext 사용
+		//스프링 컨테이너 생성시 GenericXmlApplicationContext 사용
 		
 		
 		ApplicationContext ctx = new GenericXmlApplicationContext("classpath:main-conf.xml");
