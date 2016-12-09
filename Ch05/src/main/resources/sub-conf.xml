@@ -10,7 +10,7 @@
 	<bean id="infoPrinter" class="main.java.MemberInfoPrinter">
 <!-- 	name : 설정 메소드의 set을 빼고 쓴다. ref : 설정 메소드에 파라미터로 주입할 Bean 객체의 타입명을 쓰고, -->
 <!-- 	만약 java코드 설정에서 @Bean으로 Bean 객체 생성시 쓰이는 메소드가 있으면 그 이름을 참조에 써준다. -->
-		<property name="memDao" ref="memberDao"/>
+		<property name="memberDao" ref="memberDao"/>
 		<property name="printer" ref="printer"/>
 	</bean>
 </beans>

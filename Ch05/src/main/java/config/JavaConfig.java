@@ -32,7 +32,7 @@ public class JavaConfig {
 	@Bean
 	public MemberInfoPrinter infoPrinter(){
 		MemberInfoPrinter infoPrinter = new MemberInfoPrinter();
-		infoPrinter.setMemDao(memberDao());
+		infoPrinter.setMemberDao(memberDao());
 		infoPrinter.setPrinter(printer());
 		return infoPrinter;
 	}

@@ -2,6 +2,8 @@ package main.java.main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.GenericApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
 
 import main.java.MemberInfoPrinter;
 import main.java.MemberRegisterService;
@@ -11,9 +13,9 @@ import main.java.config.JavaConfig;
 public class Main {
 	public static void main(String[] args) {
 		//스프링 컨테이너 생성시 GenericXmlApplicationContext 대신 AnnotationConfigApplicationContext 사용
-		//JavaConfig.java 에 sub-conf.xml이 임포트되어 있으므로 자바설정만 전달해도 됨
 		
-		ApplicationContext ctx = new AnnotationConfigApplicationContext(JavaConfig.class);
+		
+		ApplicationContext ctx = new GenericXmlApplicationContext("classpath:main-conf.xml");
 		MemberRegisterService regSvc = ctx.getBean("memberRegSvc", MemberRegisterService.class);
 		MemberInfoPrinter infoPrinter = ctx.getBean("infoPrinter", MemberInfoPrinter.class);
 		

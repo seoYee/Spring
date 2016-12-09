@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+	<context:annotation-config/>
+<!-- 	자바 설정 코드를 임포트하는 곳 -->
+	<bean class="main.java.config.JavaSubConf"/>
+	
+	<bean id="memberDao" class="main.java.MemberDao"/>
+	<bean id="infoPrinter" class="main.java.MemberInfoPrinter">
+		<property name="memberDao" ref="memberDao"/>
+		<property name="printer" ref="memberPrinter"/>
+	</bean>
+</beans>
