@@ -2,7 +2,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-	<bean id="client" class="main.java.spring.Client">
+	<bean id="client2" class="main.java.spring.Client2"
+	init-method="connect" destroy-method="close">
 		<property name="host" value="서버"></property>
 	</bean>
 
