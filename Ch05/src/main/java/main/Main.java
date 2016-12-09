@@ -11,6 +11,8 @@ import main.java.config.JavaConfig;
 public class Main {
 	public static void main(String[] args) {
 		//스프링 컨테이너 생성시 GenericXmlApplicationContext 대신 AnnotationConfigApplicationContext 사용
+		//JavaConfig.java 에 sub-conf.xml이 임포트되어 있으므로 자바설정만 전달해도 됨
+		
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(JavaConfig.class);
 		MemberRegisterService regSvc = ctx.getBean("memberRegSvc", MemberRegisterService.class);
 		MemberInfoPrinter infoPrinter = ctx.getBean("infoPrinter", MemberInfoPrinter.class);
